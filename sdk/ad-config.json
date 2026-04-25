@@ -1,0 +1,19 @@
+{
+    "wx1234567890abcdef": {
+        "banner": "adunit-xxxxxx",
+        "interstitial": "adunit-yyyyyy",
+        "rewardedVideo": {
+            "gold": "adunit-zzzzzz",
+            "revive": "adunit-aaaaaa",
+            "speedUp": "adunit-bbbbbb",
+            "unlock": "adunit-cccccc"
+        }
+    },
+    "wxabcdef1234567890": {
+        "banner": "adunit-dddddddd",
+        "rewardedVideo": {
+            "coin": "adunit-eeeeeeee",
+            "boost": "adunit-ffffffff"
+        }
+    }
+}

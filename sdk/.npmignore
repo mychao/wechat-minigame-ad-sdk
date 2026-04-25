@@ -1,0 +1,23 @@
+# Source files
+*.ts
+!dist/*.d.ts
+
+# Source maps
+*.map
+dist/*.map
+
+# Config and tooling
+tsconfig.json
+.npmrc
+
+# Tests and examples
+test/
+examples/
+__tests__/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store

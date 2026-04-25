@@ -1,0 +1,31 @@
+{
+  "name": "wechat-ads-sdk-tests",
+  "version": "1.0.0",
+  "description": "微信小游戏广告 SDK 单元测试",
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.0",
+    "@types/node": "^25.6.0",
+    "jest": "^29.5.0",
+    "ts-jest": "^29.1.0",
+    "typescript": "^5.0.0"
+  },
+  "jest": {
+    "preset": "ts-jest",
+    "testEnvironment": "node",
+    "roots": [
+      "<rootDir>"
+    ],
+    "testMatch": [
+      "**/test/**/*.test.ts"
+    ],
+    "collectCoverageFrom": [
+      "../*.ts",
+      "!<rootDir>/../test/**"
+    ]
+  }
+}

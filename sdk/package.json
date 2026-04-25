@@ -1,0 +1,43 @@
+{
+  "name": "wechat-minigame-ad-sdk",
+  "version": "1.0.2",
+  "description": "微信小游戏广告 SDK - 统一管理 Banner、激励视频、插屏、原生模板广告，支持多 appId 配置",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist/*.js",
+    "dist/*.d.ts",
+    "ad-config.json",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build",
+    "test": "echo \"Tests are in test/ directory\" && cd test && npm test"
+  },
+  "keywords": [
+    "wechat",
+    "minigame",
+    "ad",
+    "banner",
+    "rewarded-video",
+    "interstitial",
+    "广告",
+    "微信小游戏"
+  ],
+  "author": "mychao",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.9.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-username/wechat-ads-sdk.git"
+  },
+  "bugs": {
+    "url": "https://github.com/your-username/wechat-ads-sdk/issues"
+  },
+  "homepage": "https://github.com/your-username/wechat-ads-sdk#readme"
+}
